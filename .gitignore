@@ -1,0 +1,4 @@
+# ignorar banco após criado
+*.db
+__pycache__/
+.env
