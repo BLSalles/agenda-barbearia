@@ -3,8 +3,9 @@ import sqlite3
 from sqlite3 import Connection
 from datetime import datetime, date, time
 import pandas as pd
+import os
+DB_PATH = os.path.join("data", "appointments.db")
 
-DB_PATH = "appointments.db"
 
 SERVICES = {
     "Corte": 35.0,
