@@ -20,7 +20,7 @@ SERVICES = {
 
 BARBERS = [
     {"id": 1, "name": "Bruno", "phone": "5511956996426"},
-    {"id": 2, "name": "Carlos", "phone": "55119xxxxxxx"},
+    #{"id": 2, "name": "Carlos", "phone": "55119xxxxxxx"},
 ]
 
 BUSINESS_START = time(9, 0)
